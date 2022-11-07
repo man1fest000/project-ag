@@ -8,9 +8,6 @@ import {CharactersComponent} from "./components/characters/characters.component"
 const routes: Routes = [
   {path: '', component: MainLayoutComponent, runGuardsAndResolvers:'paramsOrQueryParamsChange' ,resolve:{episodes:EpisodeResolver}},
   {path: ':id', component:CharactersComponent}
-
-
-
 ];
 
 @NgModule({

@@ -1,17 +1,13 @@
+<div class="episodes">
+  <app-episode *ngFor="let episode of episodes" [episode]="episode"></app-episode>
+</div>
 
-
-
-
-  <div class="episodes">
-    <app-episode *ngFor="let episode of episodes" [episode]="episode"></app-episode>
-  </div>
-
-  <div class="pages">
-    <mat-paginator
-      [length]="total_count"
-      [pageSize]="20"
-      aria-label="Select page">
-    </mat-paginator>
-  </div>
+<div class="pages">
+  <mat-paginator
+    [length]="total_count"
+    [pageSize]="20"
+    aria-label="Select page">
+  </mat-paginator>
+</div>
 
 
