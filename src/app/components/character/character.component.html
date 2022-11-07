@@ -1,5 +1,7 @@
 <mat-card>
-    <img  mat-card-xl-image src="{{character.image}}" alt="{{character.name}}" >
+    <div class="img-wrapper">
+      <img   src="{{character.image}}" alt="{{character.name}}" >
+    </div>
     <mat-card-title>{{character.name}}</mat-card-title>
     <mat-card-content>{{character.status}}</mat-card-content>
     <mat-card-content>{{character.species}}</mat-card-content>

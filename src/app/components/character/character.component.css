@@ -1,3 +1,11 @@
-img{
-  margin-bottom: 10px;
+.img-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.img-wrapper img{
+  width: 100%;
+
 }
